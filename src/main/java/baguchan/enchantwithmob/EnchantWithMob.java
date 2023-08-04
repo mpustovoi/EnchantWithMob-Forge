@@ -62,7 +62,6 @@ public class EnchantWithMob {
 		ModEntities.ENTITIES_REGISTRY.register(bus);
 		ModItems.ITEM_REGISTRY.register(bus);
 		ModSoundEvents.SOUND_EVENTS.register(bus);
-		ModLootModifiers.LOOT_MODIFIERS.register(bus);
 
 		// Register ourselves for server and other game events we are interested in
 		MinecraftForge.EVENT_BUS.register(this);
